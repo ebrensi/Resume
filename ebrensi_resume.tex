@@ -52,30 +52,29 @@ $\bullet$ \url{https://github.com/ebrensi}
 \header{Skills}
 \begin{achievements}
 \item Languages: Python, Javascript, Matlab, C, Bash/DOS scripting, x86 assembly language
-\item Typesetting:  LaTeX, Github Markdown, HTML
-\item Editors/IDEs: Sublime Text, Spyder
 \item Database/Query tools: xpath and css selectors, regex, SQL (Postgres), SQLAlchemy
-\item Web Development: Flask, Heroku,  AWS S3 \& EC2, Oauth2 flow
+\item Web Development: Flask, Heroku, Oauth2 flow, SSE, Websockets, 
 \item GIS tools:  Python Folium, leaflet.js, GeoJSON
-\item Source management: Git, Github workflow 
-\item I'm familiar with Linux (Ubuntu, MINT) and currently develop using MINT 18 on my laptop 
+\item Linux (Ubuntu, MINT) 
 \end{achievements}
 \medskip
 
 \header{Work History}
-\employer{Independent project: Activity Heatmap Web-App}{1/2016 - Present}{Full-Stack Python Development}
- An open-source web app for visualization of GIS activity data. \url{http://heatflask.herokuapp.com}
+\employer{Independent project: Heatflask}{3/2016 - Present}{Full-Stack Web Development}
+ An open-source web app for animated visualizations of Strava-hosted activity data. \url{http://heatflask.herokuapp.com}
 \begin{achievements}
-\item Backend: periodic cron-jobs to download of activity data from (Strava/Garmin) via REST API, stored as rows in  Heroku PostgreSQL database with SQLAlchemy data-models and ORM.
-\item Frontend: Python Flask framework running on Heroku with leaflet.js map API and Bootstrap
+\item Achieved top-25 status in 2016 Strava Developer Challenge (6/6/2016) 
+\item Serves thousands of users worldwide using one Heroku webworker handling requests asynchronously, a hobby-tier PosegreSQL database, and a free Redis datastore for database query caching.
+\item Uses Continuous Integration development model to adapt to increasing user-base and code vulnerabilities, minimizing downtime
+\item Primary technologies used: Python Flask, Pandas, Gunicorn, Gevent, PostgreSQL, Redis, Server-Side Events (SSE), Leaflet.js, JQuery,  Polyline Codec
 \end{achievements}
 
 
-\employer{Center on Youth Registration Reform}{6/2015-8/2015}{Web Scraping}
+\employer{Center on Youth Registration Reform}{6/2015-12/2015}{Web Scraping, data-analysis}
  Provided preliminary data to CYRR for working towards reforming sex-offender legislation as it applies to juveniles.
 \begin{achievements}
 \item Wrote a web-scraper using Python Scrapy framework with a central spider class and 20 sub-spiders to scrape public Sex-Offender registries for 20 states.  Data stored in PostgreSQL via SQLAlchemy.
-\item Provided  CYRR with preliminary data regarding number of offenders on the registry who were convicted as juveniles.
+\item Identified offenders on the registry who were convicted as juveniles.
 \item Scraping jobs controled via scrapyd REST API (\url{https://registry-backend.herokuapp.com}) 
 \item A minimal (Python Flask) front-end is viewable at \url{https://registry-frontend.herokuapp.com}
 \end{achievements}
@@ -101,7 +100,7 @@ Team leader for Image-based-spam detection proof-of-concept project at  Institut
 \header{Volunteer Projects}
 \employer{Berkeley Food Pantry}{8/2015-Present}{Full-Stack Development}
 \begin{achievements}
-\item Developing Python web-application for visualization of aggregate data (food donations received, patrons served) for Berkeley Food Pantry. This involves using Dropbox API to access Excel files, parsing them and creating infographics to be displayed on their WIX-based website. 
+\item Developed a Python web-application for visualization of aggregate data (food donations received, patrons served) for Berkeley Food Pantry. 
 \end{achievements}
 
 \employer{Code for America (Open Oakland Brigade)}{8/2015-12/2015}{Software Development}
@@ -113,6 +112,8 @@ I briefly worked with California Civic Lab, a project to extend Oakland's succes
 
 \header{Education}
 \school{University of California, Davis}{Davis, CA, U.S.A.}{M.S. Applied Mathematics, 2006-2014}
+
+My research focus was computational linear algebra.
 \begin{achievements}
 \item Developed a new thick-restarted Krylov-subspace method for MIMO model order-reduction.
 \item Introduced a new orthogonalization process for complex-valued Krylov subspace basis vectors that cuts computational costs in half by treating complex vectors as long real-valued vectors.
@@ -123,5 +124,5 @@ I briefly worked with California Civic Lab, a project to extend Oakland's succes
 \medskip
 
 \header{More}
-For brevity I've listed only my highlighted achievements.  See more on my LinkedIn and my Github profiles. 
+See more on my LinkedIn (\url{https://www.linkedin.com/in/efremrensi}) and Github (\url{https://github.com/ebrensi}). 
 \end{document}
